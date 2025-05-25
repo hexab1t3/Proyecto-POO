@@ -1,0 +1,6 @@
+run = "Mascotas run"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "Mascotas run"]

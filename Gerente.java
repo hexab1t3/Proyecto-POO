@@ -9,5 +9,11 @@ public class Gerente extends Persona{
         this.numeroGerente=numeroGerente;
         this.sucursal=sucursal;
     }
-    //agregar pa cuando no tiene mama
+    //Metodo constructor en caso de que no tenga mama
+    public Gerente(String nombre, String paterno, Date fecha_nacimiento, String Curp,int numeroGerente,SucursalClass sucursal){
+        super(nombre, paterno, fecha_nacimiento, Curp);
+        this.numeroGerente=numeroGerente;
+        this.sucursal=sucursal;
+    }
+    //Metodos set y get
 }

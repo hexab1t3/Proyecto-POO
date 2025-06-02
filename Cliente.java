@@ -9,6 +9,10 @@ public class Cliente extends Persona{
         this.numeroCliente=numeroCliente;
         this.mascota=mascota;
     }
-    //agregar pa cuando no tiene mama
-
+    //Metodo Constructor cuando carece de apellido materno
+    public Cliente(String nombre,String paterno,Date fecha_nacimiento,String Curp,int numeroCliente,Mascota mascota){
+        super(nombre,paterno,fecha_nacimiento,Curp);
+        this.numeroCliente=numeroCliente;
+        this.mascota=mascota;
+    }
 }

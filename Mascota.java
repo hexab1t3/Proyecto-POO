@@ -10,4 +10,5 @@ public class Mascota {
         this.numeroMascota=numeroMascota;
         this.vacunasAplicadas=vacunasAplicadas;
     }
+    //Metodos set y get
 }

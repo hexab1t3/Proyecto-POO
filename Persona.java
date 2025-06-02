@@ -16,11 +16,12 @@ public class Persona {
         this.Curp=Curp;
     }
     //Constructor en caso de no tener apellido Materno
-    public void PersonaSM(String nombre,String paterno,Date fecha_nacimiento,String Curp){
+    public Persona(String nombre,String paterno,Date fecha_nacimiento,String Curp){
         this.nombre=nombre;
         this.paterno=paterno;
         this.fecha_nacimiento=fecha_nacimiento;
         this.Curp=Curp;
     }
+    //Metodos set y get
 
 }

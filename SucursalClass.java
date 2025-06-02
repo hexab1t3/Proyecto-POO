@@ -1,12 +1,14 @@
-    //sucursales, no le entendi si queria nombres o que onda
-    enum sucursal {
+
+enum sucursal {
     Coyoacan,
     San_angel,
-    Tepito
-    }
+    Tepito,
+    Ciudad_peluche,
+    pueblo_paleta
+}
 
 public class SucursalClass {
-    private sucursal suc;
+    private  sucursal suc;
     //metodo constructor
     public SucursalClass(sucursal suc){
         this.suc=suc;
@@ -15,4 +17,9 @@ public class SucursalClass {
     public sucursal getSuc() {
         return suc;
     }
+    //metodo set
+    public void setSuc(sucursal suc){
+        this.suc=suc;
+    }
+
 }

@@ -2,7 +2,7 @@
 
 ## 1. Menú de operaciones  
 Debe existir un menú que permita:  
-1. Alta de cliente  
+1. Alta de cliente 
 2. Alta de mascota  
 3. Alta y baja de veterinarios o asistente personal  
 4. Alta de gerente en sucursal  
@@ -18,34 +18,34 @@ Debe existir un menú que permita:
 
 ---
 
-## 2. Enumeración  
+## 2. Enumeración  (listo)
 - **Enum `Sucursal`**: definir nombre de la sucursal y manejar diferentes zonas.
 
 ---
 
 ## 3. Modelo de clases  
 
-### 3.1. Clase `Persona`  
+### 3.1. Clase `Persona`  (listo)
 - `nombre` (String)  
 - `paterno` (String)  
 - `materno` (String)  
 - `fecha_nacimiento` (Date)  
 - `CURP` (String)  
 
-### 3.2. Clase `Cliente` extends `Persona`  
+### 3.2. Clase `Cliente` extends `Persona`  (listo)
 - `numeroCliente` (int)  
 - Relación “has-a” con `Mascota`  
 
-### 3.3. Clase `Veterinario` extends `Persona`  
+### 3.3. Clase `Veterinario` extends `Persona`  (listo)
 - `numeroCedula` (int)  
 
 ### 3.4. Clase `Asistente` extends `Persona`  
 
-### 3.5. Clase `Gerente` extends `Persona`  
+### 3.5. Clase `Gerente` extends `Persona`  (listo)
 - Relación “has-a” con `Sucursal`  
 - `numeroGerente` (int)  
 
-### 3.6. Clase `Mascota`  
+### 3.6. Clase `Mascota`  (listo)
 - `nombre` (String)  
 - `raza` (String)  
 - `numeroMascota` (int)  
